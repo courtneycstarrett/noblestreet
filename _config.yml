@@ -1,0 +1,58 @@
+title: Noble Street Boutique
+name: Courtney Starrett
+email: leviathan747@gmail.com
+description: Welcome to Noble Street!
+
+baseurl: "/blog"
+url: ""
+
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+new_arrivals: New Arrivals
+new_arrivals_description: See what's knew!
+new_arrivals_url:
+new_arrivals_icon: location_on
+
+tops: Tops
+tops_description: Buy some sweet tops!
+tops_url:
+tops_icon: location_on
+
+bottoms: Bottoms
+bottoms_description: Buy some rockin bottoms!
+bottoms_url:
+bottoms_icon: photo_camera
+
+accessories: Accessories
+accessories_description: Get your accessories here!
+accessories_url:
+accessories_icon: hotel
+
+dresses: Dresses
+dresses_description: Rock summer with these dresses!
+dresses_url:
+dresses_icon: restaurant
+
+syntax_highlighting: true
+# Skill icons from https://konpa.github.io/devicon/
+
+shop_button: Shop Now!
+
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+# theme: minima
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
