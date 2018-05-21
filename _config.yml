@@ -38,6 +38,7 @@ shop_button: Shop Now!
 
 baseurl: /noblestreet
 url: https://courtneycstarrett.github.io
+#baseurl:
 #url: http://localhost:4000/ #the url of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
