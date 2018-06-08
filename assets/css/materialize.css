@@ -1056,7 +1056,7 @@
 }
 
 .teal-text.text-darken-4 {
-  color: #004d40 !important;
+  color: #30595f !important;
 }
 
 .teal.accent-1 {
@@ -4455,14 +4455,20 @@ nav .input-field label.active i {
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "PlaylistScript";
+  src: url("../fonts/playlist/PlaylistScript.otf") format("opentype");
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -4485,6 +4491,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "PlaylistScript", sans-serif;
   font-weight: 400;
   line-height: 1.1;
 }
@@ -4494,7 +4501,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 6.3rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
 }

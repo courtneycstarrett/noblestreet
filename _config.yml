@@ -3,30 +3,30 @@ name: Courtney Starrett
 email: leviathan747@gmail.com
 description: Welcome to Noble Street!
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+parallax_image_one: assets/images/brick-wall.jpg
+parallax_image_two: assets/images/brick-wall.jpg
 
-new_arrivals: New Arrivals
+new_arrivals: NEW ARRIVALS
 new_arrivals_description: See what's knew!
 new_arrivals_url:
 new_arrivals_icon: location_on
 
-tops: Tops
+tops: TOPS
 tops_description: Buy some sweet tops!
 tops_url:
 tops_icon: location_on
 
-bottoms: Bottoms
+bottoms: BOTTOMS
 bottoms_description: Buy some rockin bottoms!
 bottoms_url:
 bottoms_icon: photo_camera
 
-accessories: Accessories
+accessories: ACCESSORIES
 accessories_description: Get your accessories here!
 accessories_url:
 accessories_icon: hotel
 
-dresses: Dresses
+dresses: DRESSES
 dresses_description: Rock summer with these dresses!
 dresses_url:
 dresses_icon: restaurant
@@ -36,10 +36,10 @@ syntax_highlighting: true
 
 shop_button: Shop Now!
 
-baseurl: /noblestreet
-url: https://courtneycstarrett.github.io
-#baseurl:
-#url: http://localhost:4000/ #the url of your site
+#baseurl: /noblestreet
+#url: https://courtneycstarrett.github.io
+baseurl:
+url: http://localhost:4000/ #the url of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX
