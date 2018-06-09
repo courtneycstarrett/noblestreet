@@ -700,7 +700,7 @@
 }
 
 .blue.darken-2 {
-  background-color: #1976D2 !important;
+  background-color: #30595f !important;
 }
 
 .blue-text.text-darken-2 {
@@ -4501,7 +4501,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 6.3rem;
+  font-size: 5rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
 }
@@ -9406,3 +9406,17 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
 }
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .center-image {
+    width: 50%;
+  }
+}
+
