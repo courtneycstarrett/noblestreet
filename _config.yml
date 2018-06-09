@@ -1,38 +1,40 @@
 title: Noble Street Boutique
 name: Courtney Starrett
 email: leviathan747@gmail.com
-description: Welcome to Noble Street!
 
-parallax_image_one: assets/images/brick-wall.jpg
-parallax_image_two: assets/images/brick-wall.jpg
+parallax_image: assets/images/brick-wall.jpg
 
 new_arrivals: NEW ARRIVALS
 new_arrivals_description: See what's knew!
-new_arrivals_url:
-new_arrivals_icon: location_on
+new_arrivals_url: newarrivals/
 
 tops: TOPS
 tops_description: Buy some sweet tops!
-tops_url:
-tops_icon: location_on
+tops_url: tops/
 
 bottoms: BOTTOMS
 bottoms_description: Buy some rockin bottoms!
-bottoms_url:
-bottoms_icon: photo_camera
+bottoms_url: bottoms/
 
 accessories: ACCESSORIES
 accessories_description: Get your accessories here!
-accessories_url:
-accessories_icon: hotel
+accessories_url: accessories/
 
 dresses: DRESSES
 dresses_description: Rock summer with these dresses!
-dresses_url:
-dresses_icon: restaurant
+dresses_url: dresses/
 
-syntax_highlighting: true
-# Skill icons from https://konpa.github.io/devicon/
+collections:
+  newarrivals:
+    output: true
+  tops:
+    output: true
+  bottoms:
+    output: true
+  accessories:
+    output: true
+  dresses:
+    output: true
 
 shop_button: Shop Now!
 
@@ -40,15 +42,8 @@ shop_button: Shop Now!
 baseurl:
 url: http://localhost:4000/ #the url of your site
 
-# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
-tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
-
-syntax_highlighting: true # include the css for syntax highlighting
-
 # Build settings
 markdown: kramdown
-# theme: minima
 permalink: pretty
 plugins:
   - jekyll-feed
