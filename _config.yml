@@ -38,9 +38,9 @@ collections:
 
 shop_button: Shop Now!
 
-#url: https://noblestreetboutique.com
+url: https://noblestreetboutique.com
+#url: http://localhost:4000/
 baseurl:
-url: http://localhost:4000/ #the url of your site
 
 # Build settings
 markdown: kramdown
