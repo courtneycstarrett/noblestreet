@@ -4,7 +4,7 @@ email: noblestreetboutique@gmail.com
 
 parallax_image: assets/images/brick-wall.jpg
 
-new_arrivals: NEW ARRIVALS
+new_arrivals_title: NEW ARRIVALS
 new_arrivals_description: See what's knew!
 new_arrivals_url: newarrivals/
 
@@ -12,15 +12,15 @@ tops_title: TOPS
 tops_description: Buy some sweet tops!
 tops_url: tops/
 
-bottoms: BOTTOMS
+bottoms_title: BOTTOMS
 bottoms_description: Buy some rockin bottoms!
 bottoms_url: bottoms/
 
-accessories: ACCESSORIES
+accessories_title: ACCESSORIES
 accessories_description: Get your accessories here!
 accessories_url: accessories/
 
-dresses: DRESSES
+dresses_title: DRESSES
 dresses_description: Rock summer with these dresses!
 dresses_url: dresses/
 

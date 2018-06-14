@@ -13,7 +13,7 @@ layout: page
           <img src="{{item.image}}">
         </div>
         <div class="card-content">
-          <span class="card-title grey-text text-darken-4"><a href="{{site.url}}{{item.url}}">{{item.title}}</a></span>
+          <span class="card-title"><a class="grey-text text-darken-4" href="{{site.url}}{{item.url}}">{{item.title}}</a></span>
           <p>{{item.description}}</p>
         </div>
       </div>
