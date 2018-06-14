@@ -5,7 +5,7 @@ layout: page
 {% for i in (1..rows) %}
   <div class="row">
   {% assign offset = forloop.index0 | times: 2 %}
-  {% for item in site.tops limit:2 offset:offset %}
+  {% for product in site.tops limit:2 offset:offset %}
     {% include product.html %}
   {% endfor %}
   </div>

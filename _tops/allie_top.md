@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 product_id: 1468944941174
 url: allie_top/
 title: Allie Top

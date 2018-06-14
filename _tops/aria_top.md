@@ -1,9 +1,9 @@
 ---
 layout: page
-product_id: 1468935733366
-url: demi_dress/
-title: Demi Dress
-description: Demi Dress. Flowy dress
+product_id: 1344664010870
+url: aria_top/
+title: Aria Top
+description: Aria Top. Babydoll fit top
 image: ../assets/images/desk.jpg
 new_arrival: true
 ---
