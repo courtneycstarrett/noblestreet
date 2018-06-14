@@ -1,23 +1,12 @@
 ---
 layout: page
 ---
-
 {% assign rows = site.tops.size | divided_by: 2.0 | ceil %}
 {% for i in (1..rows) %}
   <div class="row">
   {% assign offset = forloop.index0 | times: 2 %}
   {% for item in site.tops limit:2 offset:offset %}
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="{{item.image}}">
-        </div>
-        <div class="card-content">
-          <span class="card-title"><a class="grey-text text-darken-4" href="{{site.url}}{{item.url}}">{{item.title}}</a></span>
-          <p>{{item.description}}</p>
-        </div>
-      </div>
-    </div>
+    {% include product.html %}
   {% endfor %}
   </div>
 {% endfor %}

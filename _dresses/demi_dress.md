@@ -5,6 +5,7 @@ url: demi_dress/
 title: Demi Dress
 description: Demi Dress. Flowy dress
 image: ../assets/images/desk.jpg
+new_arrival: true
 ---
 
-{% include product.html %}
+{% include product_page.html %}

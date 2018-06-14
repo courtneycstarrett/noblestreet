@@ -36,8 +36,6 @@ collections:
   dresses:
     output: true
 
-shop_button: Shop Now!
-
 shopify_script_url: https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js
 shopify_domain: noble-street-boutique.myshopify.com
 shopify_api_key: 49534acab58e1ab4fee682d65da8454e

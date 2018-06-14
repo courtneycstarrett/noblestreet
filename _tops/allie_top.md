@@ -5,6 +5,7 @@ url: allie_top/
 title: Allie Top
 description: Allie Top. Khaki grey top with cut out. 
 image: ../assets/images/desk.jpg
+new_arrival: true
 ---
 
-{% include product.html %}
+{% include product_page.html %}
