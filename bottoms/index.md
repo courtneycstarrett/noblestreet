@@ -2,8 +2,6 @@
 layout: page
 ---
 
-New arrivals page.
-
 {% assign rows = site.bottoms.size | divided_by: 2.0 | ceil %}
 {% for i in (1..rows) %}
   <div class="row">

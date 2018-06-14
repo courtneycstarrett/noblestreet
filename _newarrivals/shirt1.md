@@ -1,8 +1,7 @@
 ---
-title: Shirt 1
-description: Foo
-image: ../assets/images/desk.jpg
+layout: default
+product_id: 1344664010870
 url: shirt1/
 ---
 
-This is a nice shirt
+{% include product.html %}

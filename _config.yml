@@ -8,7 +8,7 @@ new_arrivals: NEW ARRIVALS
 new_arrivals_description: See what's knew!
 new_arrivals_url: newarrivals/
 
-tops: TOPS
+tops_title: TOPS
 tops_description: Buy some sweet tops!
 tops_url: tops/
 
@@ -37,6 +37,11 @@ collections:
     output: true
 
 shop_button: Shop Now!
+
+shopify_script_url: https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js
+shopify_domain: noble-street-boutique.myshopify.com
+shopify_api_key: 49534acab58e1ab4fee682d65da8454e
+shopify_app_id: 6
 
 url: https://noblestreetboutique.com
 #url: http://localhost:4000/

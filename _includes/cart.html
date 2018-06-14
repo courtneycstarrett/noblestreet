@@ -1,0 +1,91 @@
+<div id="cart"></div>
+<script type="text/javascript">
+  (function () {
+    var scriptURL = '{{site.shopify_script_url}}';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+    function loadScript() {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = scriptURL;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+      script.onload = ShopifyBuyInit;
+    }
+
+    function ShopifyBuyInit() {
+      var client = ShopifyBuy.buildClient({
+        domain: '{{site.shopify_domain}}',
+        apiKey: '{{site.shopify_api_key}}',
+        appId: '{{site.shopify_app_id}}',
+      });
+
+      ShopifyBuy.UI.onReady(client).then(function (ui) {
+        ui.createComponent('cart', {
+          node: document.getElementById('cart'),
+          moneyFormat: '%24%7B%7Bamount%7D%7D',
+          options: {
+            "cart": {
+              "background-color": "#30595f",
+              "contents": {
+                "button": true
+              },
+              "styles": {
+                "button": {
+                  "background-color": "#30595f",
+                  ":hover": {
+                    "background-color": "#30595f"
+                  },
+                  ":focus": {
+                    "background-color": "#30595f"
+                  }
+                },
+                "footer": {
+                  "background-color": "#ffffff"
+                }
+              }
+            },
+            "toggle": {
+              "styles": {
+                "toggle": {
+                  "background-color": "#30595f",
+                  ":hover": {
+                    "background-color": "#30595f"
+                  },
+                  ":focus": {
+                    "background-color": "#30595f"
+                  }
+                },
+                "count": {
+                  "color": "#ffffff",
+                  ":hover": {
+                    "color": "#ffffff"
+                  }
+                },
+                "iconPath": {
+                  "fill": "#ffffff"
+                }
+              }
+            },
+            "productSet": {
+              "styles": {
+                "products": {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
+                  }
+                }
+              }
+            }
+          }
+        });
+      });
+    }
+  })();
+</script>

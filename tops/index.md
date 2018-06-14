@@ -2,8 +2,6 @@
 layout: page
 ---
 
-New arrivals page.
-
 {% assign rows = site.tops.size | divided_by: 2.0 | ceil %}
 {% for i in (1..rows) %}
   <div class="row">
@@ -15,11 +13,8 @@ New arrivals page.
           <img src="{{item.image}}">
         </div>
         <div class="card-content">
-          <span class="card-title grey-text text-darken-4">{{item.title}}</span>
+          <span class="card-title grey-text text-darken-4"><a href="{{site.url}}{{item.url}}">{{item.title}}</a></span>
           <p>{{item.description}}</p>
-        </div>
-        <div class="card-action">
-          <p><a href="{{site.url}}{{item.url}}">More info</a></p>
         </div>
       </div>
     </div>
