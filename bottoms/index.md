@@ -10,3 +10,5 @@ layout: page
   {% endfor %}
   </div>
 {% endfor %}
+{% assign product_name = site.bottoms_title %}
+{% include no_products.html %}
