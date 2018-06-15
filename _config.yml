@@ -2,30 +2,39 @@ title: Noble Street Boutique
 name: Courtney Starrett
 email: noblestreetboutique@gmail.com
 
-parallax_image: assets/images/brick-wall.jpg
+parallax_image: brick-wall.jpg
+logo: logo.png
+profile_image: profile.jpg
+
+introduction: |
+  Hi! My name is Courtney :) Welcome to my boutique! This is the section where I
+  will tell you a little about me and how this whole adventure began. In May of
+  2018, I graduated from Purdue University with a bachelor's degree. This was
+  such a special accomplishment for me, because I had actually had a baby during
+  my last semester in college. I have always loved shopping at little boutiques.
+  So after I finished college, I realized I wasn't ready to join the work force,
+  as I wanted to be home with my new baby! That's where Noble Street Boutique
+  began. I brought up the idea to my husband and he encouraged me to do it. While
+  this has been hard work for both my husband and I, I'm happy to welcome you all
+  to a little piece of my story, Noble Street Boutique.
 
 new_arrivals_title: NEW ARRIVALS
-new_arrivals_description: See what's knew!
 new_arrivals_url: newarrivals/
 new_arrivals_image: allie_top.jpg
 
 tops_title: TOPS
-tops_description: Buy some sweet tops!
 tops_url: tops/
 tops_image: aria_top.jpg
 
 bottoms_title: BOTTOMS
-bottoms_description: Buy some rockin bottoms!
 bottoms_url: bottoms/
 bottoms_image: cheyenne_shorts.jpg
 
 accessories_title: ACCESSORIES
-accessories_description: Get your accessories here!
 accessories_url: accessories/
-accessories_image:
+accessories_image: coming_soon.png
 
 dresses_title: DRESSES
-dresses_description: Rock summer with these dresses!
 dresses_url: dresses/
 dresses_image: demi_dress.jpg
 
