@@ -692,7 +692,12 @@
 }
 
 .blue.darken-1 {
-  background-color: #1E88E5 !important;
+  background-color: #3B5998 !important;
+}
+
+.ig {
+  background-image: url("../images/ig.png");
+  background-size: contain;
 }
 
 .blue-text.text-darken-1 {
